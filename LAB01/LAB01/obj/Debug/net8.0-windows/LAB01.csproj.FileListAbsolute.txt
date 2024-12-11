@@ -1,0 +1,66 @@
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.exe
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.deps.json
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.runtimeconfig.json
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.dll
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.pdb
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_1.resources
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_2.resources
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_3.resources
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_4.resources
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_5.resources
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab1_Menu.resources
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.csproj.GenerateResource.cache
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.AssemblyInfoInputs.cache
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.AssemblyInfo.cs
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.csproj.CoreCompileInputs.cache
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.dll
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\refint\LAB01.dll
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.pdb
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.genruntimeconfig.cache
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\ref\LAB01.dll
+D:\ThucHanhNMM\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Properties.Resources.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.exe
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.deps.json
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.runtimeconfig.json
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.dll
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.pdb
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_1.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_2.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_3.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_4.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_5.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab1_Menu.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Properties.Resources.resources
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.csproj.GenerateResource.cache
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.AssemblyInfoInputs.cache
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.AssemblyInfo.cs
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.csproj.CoreCompileInputs.cache
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.dll
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\refint\LAB01.dll
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.pdb
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.genruntimeconfig.cache
+C:\Users\huung\Documents\Zalo Received Files\LAB01\LAB01\LAB01\obj\Debug\net8.0-windows\ref\LAB01.dll
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.exe
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.deps.json
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.runtimeconfig.json
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.dll
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\bin\Debug\net8.0-windows\LAB01.pdb
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_1.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_2.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_3.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_4.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab01_Excersice_5.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Lab1_Menu.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.Properties.Resources.resources
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.csproj.GenerateResource.cache
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.GeneratedMSBuildEditorConfig.editorconfig
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.AssemblyInfoInputs.cache
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.AssemblyInfo.cs
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.csproj.CoreCompileInputs.cache
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.dll
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\refint\LAB01.dll
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.pdb
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\LAB01.genruntimeconfig.cache
+D:\ThucHanhNMM\NT106.P12.2_Lab1_23521380_23520809_23521754\LAB01\LAB01\obj\Debug\net8.0-windows\ref\LAB01.dll

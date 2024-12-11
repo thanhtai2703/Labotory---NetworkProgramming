@@ -1,0 +1,273 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Lab03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|d:\\lab03\\excercise5\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|solutionrelative:excercise5\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|D:\\Lab03\\excercise5\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|solutionrelative:excercise5\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|d:\\lab03\\excercise5\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|solutionrelative:excercise5\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|D:\\Lab03\\excercise5\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|solutionrelative:excercise5\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|D:\\Lab03\\excercise4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDE4A07-D817-4974-B060-1F37C74C4380}|Excercise1\\Excercise1.csproj|D:\\Lab03\\excercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FEDE4A07-D817-4974-B060-1F37C74C4380}|Excercise1\\Excercise1.csproj|solutionrelative:excercise1\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDE4A07-D817-4974-B060-1F37C74C4380}|Excercise1\\Excercise1.csproj|D:\\Lab03\\excercise1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FEDE4A07-D817-4974-B060-1F37C74C4380}|Excercise1\\Excercise1.csproj|solutionrelative:excercise1\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEDE4A07-D817-4974-B060-1F37C74C4380}|Excercise1\\Excercise1.csproj|d:\\lab03\\excercise1\\excercise1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FEDE4A07-D817-4974-B060-1F37C74C4380}|Excercise1\\Excercise1.csproj|solutionrelative:excercise1\\excercise1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|D:\\Lab03\\excercise5\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|solutionrelative:excercise5\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|D:\\Lab03\\excercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|d:\\lab03\\excercise4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|D:\\Lab03\\excercise4\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|d:\\lab03\\excercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|d:\\lab03\\excercise4\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|d:\\lab03\\excercise4\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3A48B8D-39FC-4187-BA8F-09416953D55C}|Excercise4\\Excercise4.csproj|solutionrelative:excercise4\\server.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|d:\\lab03\\excercise5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0554A088-9A28-46B2-937D-568C7540B111}|Excercise5\\Excercise5.csproj|solutionrelative:excercise5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise1\\Menu.cs",
+              "RelativeDocumentMoniker": "Excercise1\\Menu.cs",
+              "ToolTip": "D:\\ThucHanhNMM\\Lab03\\Excercise1\\Menu.cs [Design]",
+              "RelativeToolTip": "..\\ThucHanhNMM\\Lab03\\Excercise1\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:18:18.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Excercise1.csproj",
+              "DocumentMoniker": "D:\\Lab03\\Excercise1\\Excercise1.csproj",
+              "RelativeDocumentMoniker": "Excercise1\\Excercise1.csproj",
+              "ToolTip": "D:\\Lab03\\Excercise1\\Excercise1.csproj",
+              "RelativeToolTip": "Excercise1\\Excercise1.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-05T05:18:13.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise5\\Client.cs",
+              "RelativeDocumentMoniker": "Excercise5\\Client.cs",
+              "ToolTip": "D:\\Lab03\\Excercise5\\Client.cs",
+              "RelativeToolTip": "Excercise5\\Client.cs",
+              "ViewState": "AQIAALgAAAAAAAAAAAAAAM8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T05:17:50.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Menu.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Menu.cs",
+              "ToolTip": "D:\\ThucHanhNMM\\Lab03\\Excercise4\\Menu.cs [Design]",
+              "RelativeToolTip": "..\\ThucHanhNMM\\Lab03\\Excercise4\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:40:02.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Client.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Client.cs",
+              "ToolTip": "D:\\Lab03\\Excercise4\\Client.cs",
+              "RelativeToolTip": "Excercise4\\Client.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:37:57.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Client.Designer.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Client.Designer.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Client.Designer.cs",
+              "ToolTip": "D:\\Lab03\\Excercise4\\Client.Designer.cs",
+              "RelativeToolTip": "Excercise4\\Client.Designer.cs",
+              "ViewState": "AQIAALAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:37:32.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Server.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Server.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Server.cs",
+              "ToolTip": "D:\\Lab03\\Excercise4\\Server.cs",
+              "RelativeToolTip": "Excercise4\\Server.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAQwH0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:36:43.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Server.Designer.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Server.Designer.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Server.Designer.cs",
+              "ToolTip": "D:\\Lab03\\Excercise4\\Server.Designer.cs",
+              "RelativeToolTip": "Excercise4\\Server.Designer.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:36:23.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Server.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise5\\Server.cs",
+              "RelativeDocumentMoniker": "Excercise5\\Server.cs",
+              "ToolTip": "D:\\Lab03\\Excercise5\\Server.cs",
+              "RelativeToolTip": "Excercise5\\Server.cs",
+              "ViewState": "AQIAAPsAAAAAAAAAAAArwAoBAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:33:58.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Lab03\\Excercise5\\Program.cs",
+              "RelativeDocumentMoniker": "Excercise5\\Program.cs",
+              "ToolTip": "D:\\Lab03\\Excercise5\\Program.cs",
+              "RelativeToolTip": "Excercise5\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:30:42.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Server.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise5\\Server.cs",
+              "RelativeDocumentMoniker": "Excercise5\\Server.cs",
+              "ToolTip": "D:\\Lab03\\Excercise5\\Server.cs [Design]",
+              "RelativeToolTip": "Excercise5\\Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:27:36.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise5\\Menu.cs",
+              "RelativeDocumentMoniker": "Excercise5\\Menu.cs",
+              "ToolTip": "D:\\ThucHanhNMM\\Lab03\\Excercise5\\Menu.cs [Design]",
+              "RelativeToolTip": "..\\ThucHanhNMM\\Lab03\\Excercise5\\Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:06:29.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Server.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Server.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Server.cs",
+              "ToolTip": "D:\\ThucHanhNMM\\Lab03\\Excercise4\\Server.cs [Design]",
+              "RelativeToolTip": "..\\ThucHanhNMM\\Lab03\\Excercise4\\Server.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:05:28.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Client.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise5\\Client.cs",
+              "RelativeDocumentMoniker": "Excercise5\\Client.cs",
+              "ToolTip": "D:\\Lab03\\Excercise5\\Client.cs [Design]",
+              "RelativeToolTip": "Excercise5\\Client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:59:42.904Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Client.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise4\\Client.cs",
+              "RelativeDocumentMoniker": "Excercise4\\Client.cs",
+              "ToolTip": "D:\\Lab03\\Excercise4\\Client.cs [Design]",
+              "RelativeToolTip": "Excercise4\\Client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:59:22.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Client.cs [Design]",
+              "DocumentMoniker": "D:\\Lab03\\Excercise1\\Client.cs",
+              "RelativeDocumentMoniker": "Excercise1\\Client.cs",
+              "ToolTip": "D:\\Lab03\\Excercise1\\Client.cs [Design]",
+              "RelativeToolTip": "Excercise1\\Client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T11:58:37.33Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

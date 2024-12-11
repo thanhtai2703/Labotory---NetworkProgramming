@@ -1,0 +1,18 @@
+C:\Users\taith\source\repos\Lab02\Bai2\obj\Debug\Bai2.csproj.AssemblyReference.cache
+C:\Users\taith\source\repos\Lab02\Bai2\obj\Debug\Bai2.Properties.Resources.resources
+C:\Users\taith\source\repos\Lab02\Bai2\obj\Debug\Bai2.csproj.GenerateResource.cache
+C:\Users\taith\source\repos\Lab02\Bai2\obj\Debug\Bai2.csproj.CoreCompileInputs.cache
+C:\Users\taith\source\repos\Lab02\Bai2\bin\Debug\Bai2.exe.config
+C:\Users\taith\source\repos\Lab02\Bai2\bin\Debug\Bai2.exe
+C:\Users\taith\source\repos\Lab02\Bai2\bin\Debug\Bai2.pdb
+C:\Users\taith\source\repos\Lab02\Bai2\obj\Debug\Bai2.exe
+C:\Users\taith\source\repos\Lab02\Bai2\obj\Debug\Bai2.pdb
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\bin\Debug\Bai2.exe.config
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\bin\Debug\Bai2.exe
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\bin\Debug\Bai2.pdb
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\obj\Debug\Bai2.csproj.AssemblyReference.cache
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\obj\Debug\Bai2.Properties.Resources.resources
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\obj\Debug\Bai2.csproj.GenerateResource.cache
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\obj\Debug\Bai2.csproj.CoreCompileInputs.cache
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\obj\Debug\Bai2.exe
+D:\ĐH CÔNG NGHỆ THÔNG TIN\NĂM 2\LẬP TRÌNH MẠNG CĂN BẢN\THỰC HÀNH\BTTH_2\Lab02\Bai2\obj\Debug\Bai2.pdb
