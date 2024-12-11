@@ -1,0 +1,16 @@
+C:\Users\admin\source\repos\Lab4\Excercise6\bin\Debug\net8.0-windows\Excercise6.exe
+C:\Users\admin\source\repos\Lab4\Excercise6\bin\Debug\net8.0-windows\Excercise6.deps.json
+C:\Users\admin\source\repos\Lab4\Excercise6\bin\Debug\net8.0-windows\Excercise6.runtimeconfig.json
+C:\Users\admin\source\repos\Lab4\Excercise6\bin\Debug\net8.0-windows\Excercise6.dll
+C:\Users\admin\source\repos\Lab4\Excercise6\bin\Debug\net8.0-windows\Excercise6.pdb
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.SignUp.resources
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.AssemblyInfo.cs
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.dll
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\refint\Excercise6.dll
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.pdb
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.genruntimeconfig.cache
+C:\Users\admin\source\repos\Lab4\Excercise6\obj\Debug\net8.0-windows\ref\Excercise6.dll
