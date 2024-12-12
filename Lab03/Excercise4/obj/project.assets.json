@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lab03\\Excercise4\\Excercise4.csproj",
+      "projectUniqueName": "D:\\LAB-NMM\\Lab03\\Excercise4\\Excercise4.csproj",
       "projectName": "Excercise4",
-      "projectPath": "D:\\Lab03\\Excercise4\\Excercise4.csproj",
+      "projectPath": "D:\\LAB-NMM\\Lab03\\Excercise4\\Excercise4.csproj",
       "packagesPath": "C:\\Users\\taith\\.nuget\\packages\\",
-      "outputPath": "D:\\Lab03\\Excercise4\\obj\\",
+      "outputPath": "D:\\LAB-NMM\\Lab03\\Excercise4\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
