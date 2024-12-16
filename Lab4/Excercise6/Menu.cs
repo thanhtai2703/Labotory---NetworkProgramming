@@ -14,7 +14,7 @@ namespace Excercise6
 {
     public partial class Menu : Form
     {
-        private List<JsonElement> danhSachMonAn;
+        private List<MonAn> danhSachMonAn = new List<MonAn> ();
         private int type = 0; //Xác định đang ở tab nào
         public Menu()
         {
@@ -44,7 +44,8 @@ namespace Excercise6
                 {
                     string responseBody = await response.Content.ReadAsStringAsync();
                     var jsonData = JsonSerializer.Deserialize<JsonElement>(responseBody);
-                    danhSachMonAn = jsonData.GetProperty("data").EnumerateArray().ToList();
+                    string responeData  = jsonData.GetProperty("data").GetRawText();
+                    danhSachMonAn = JsonSerializer.Deserialize<List<MonAn>>(responeData);
                     getPanel();
                 }
                 else
@@ -62,9 +63,8 @@ namespace Excercise6
         {
             for (int i = 0; i < danhSachMonAn.Count(); i++)
             {
-                var monan = danhSachMonAn[i];
-                var foodPanel = CreateFoodItem(monan.GetProperty("hinh_anh").GetString(), monan.GetProperty("ten_mon_an").GetString(),
-                                                monan.GetProperty("gia").GetDouble(), monan.GetProperty("dia_chi").GetString(), monan.GetProperty("nguoi_dong_gop").GetString(), i);
+                var monAn = danhSachMonAn[i];
+                var foodPanel = CreateFoodItem(monAn.HinhAnh,monAn.TenMonAn,monAn.Gia,monAn.DiaChi,monAn.NguoiDongGop, i);
                 if (type == 0) flowLayoutPanel1.Controls.Add(foodPanel);
                 else flowLayoutPanel2.Controls.Add(foodPanel);
             }
@@ -149,15 +149,14 @@ namespace Excercise6
         {
             Random random = new Random();
             int index = random.Next(0, danhSachMonAn.Count);
-            JsonElement x = danhSachMonAn[index];
+            MonAn x = danhSachMonAn[index];
             //int id,string name, string description, double gia, string diachi,string picture,string donggop
-            Panel food = CreateFoodItem(x.GetProperty("hinh_anh").GetString(), x.GetProperty("ten_mon_an").GetString(),
-                                        x.GetProperty("gia").GetDouble(), x.GetProperty("dia_chi").GetString(), x.GetProperty("nguoi_dong_gop").GetString(), index);
+            Panel food = CreateFoodItem(x.HinhAnh, x.TenMonAn, x.Gia, x.DiaChi, x.NguoiDongGop, index);
             food.Click -= panel_Click; //Bỏ sự kiện click
             food.AutoScroll = true;
             Label description = new Label //Thêm label mô tả
             {
-                Text = $"Mô tả: {x.GetProperty("mo_ta").GetString()}",
+                Text = $"Mô tả: {x.MoTa}",
                 Font = new Font("Arial", 10, FontStyle.Italic),
                 Location = new Point(120, 95),
                 MaximumSize = new Size(300, 0),
@@ -172,13 +171,12 @@ namespace Excercise6
             int index = (int)((Panel)sender).Tag; //lấy chỉ số panel
             var x = danhSachMonAn[index];
             //string name, string description, doube gia, string diachi,string picture,string donggop,int id
-            Panel food = CreateFoodItem(x.GetProperty("hinh_anh").GetString(), x.GetProperty("ten_mon_an").GetString(),
-                                        x.GetProperty("gia").GetDouble(), x.GetProperty("dia_chi").GetString(), x.GetProperty("nguoi_dong_gop").GetString(), index);
+            Panel food = CreateFoodItem(x.HinhAnh, x.TenMonAn, x.Gia, x.DiaChi, x.NguoiDongGop, index);
             food.Click -= panel_Click; //Loại bỏ sự kiện click
             food.AutoScroll = true;
             Label description = new Label //Thêm label mô tả
             {
-                Text = $"Mô tả: {x.GetProperty("mo_ta").GetString()}",
+                Text = $"Mô tả: {x.MoTa}",
                 Font = new Font("Arial", 10, FontStyle.Italic),
                 Location = new Point(120, 95),
                 MaximumSize = new Size (200,0),
