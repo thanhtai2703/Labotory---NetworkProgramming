@@ -73,7 +73,7 @@ namespace Excercise6
         {
             Panel foodPanel = new Panel
             {
-                Size = new Size(400, 100),
+                Size = new Size(550, 150),
                 BorderStyle = BorderStyle.FixedSingle,
                 Margin = new Padding(5)
 
@@ -81,7 +81,7 @@ namespace Excercise6
             //PictureBox hiển thị ảnh món ăn
             PictureBox pictureBox = new PictureBox
             {
-                Size = new Size(80, 80),
+                Size = new Size(100, 150),
                 Location = new Point(10, 10),
                 ImageLocation = imagePath,
                 SizeMode = PictureBoxSizeMode.Zoom
@@ -90,28 +90,28 @@ namespace Excercise6
             {
                 Text = foodName,
                 Font = new Font("Arial", 12, FontStyle.Bold),
-                Location = new Point(100, 10),
+                Location = new Point(120, 10),
                 AutoSize = true
             };
             Label priceLabel = new Label
             {
                 Text = $"Giá: {price} VNĐ",
                 Font = new Font("Arial", 10, FontStyle.Regular),
-                Location = new Point(100, 35),
+                Location = new Point(120, 35),
                 AutoSize = true
             };
             Label addressLabel = new Label
             {
                 Text = $"Địa chỉ: {address}",
                 Font = new Font("Arial", 10, FontStyle.Regular),
-                Location = new Point(100, 55),
+                Location = new Point(120, 55),
                 AutoSize = true
             };
             Label contributorLabel = new Label
             {
                 Text = $"Đóng góp: {contributor}",
                 Font = new Font("Arial", 10, FontStyle.Italic),
-                Location = new Point(100, 75),
+                Location = new Point(120, 75),
                 AutoSize = true
             };
             foodPanel.Controls.Add(pictureBox);
@@ -119,7 +119,7 @@ namespace Excercise6
             foodPanel.Controls.Add(priceLabel);
             foodPanel.Controls.Add(addressLabel);
             foodPanel.Controls.Add(contributorLabel);
-            foodPanel.Tag = index;
+            foodPanel.Tag = index; //chỉ số của panel
             foodPanel.Click += panel_Click; //Gán sự kiện click cho từng panel
             return foodPanel;
         }
@@ -159,8 +159,8 @@ namespace Excercise6
             {
                 Text = $"Mô tả: {x.GetProperty("mo_ta").GetString()}",
                 Font = new Font("Arial", 10, FontStyle.Italic),
-                Location = new Point(100, 95),
-                MaximumSize = new Size(200, 0),
+                Location = new Point(120, 95),
+                MaximumSize = new Size(300, 0),
                 AutoSize = true
             };
             food.Controls.Add(description);
@@ -171,16 +171,16 @@ namespace Excercise6
         {
             int index = (int)((Panel)sender).Tag; //lấy chỉ số panel
             var x = danhSachMonAn[index];
-            //int id,string name, string description, double gia, string diachi,string picture,string donggop
+            //string name, string description, doube gia, string diachi,string picture,string donggop,int id
             Panel food = CreateFoodItem(x.GetProperty("hinh_anh").GetString(), x.GetProperty("ten_mon_an").GetString(),
-                                             x.GetProperty("gia").GetDouble(), x.GetProperty("dia_chi").GetString(), x.GetProperty("nguoi_dong_gop").GetString(), index);
+                                        x.GetProperty("gia").GetDouble(), x.GetProperty("dia_chi").GetString(), x.GetProperty("nguoi_dong_gop").GetString(), index);
             food.Click -= panel_Click; //Loại bỏ sự kiện click
             food.AutoScroll = true;
             Label description = new Label //Thêm label mô tả
             {
                 Text = $"Mô tả: {x.GetProperty("mo_ta").GetString()}",
                 Font = new Font("Arial", 10, FontStyle.Italic),
-                Location = new Point(100, 95),
+                Location = new Point(120, 95),
                 MaximumSize = new Size (200,0),
                 AutoSize = true
             };

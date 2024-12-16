@@ -42,7 +42,6 @@ namespace Excercise6
                     string responseBody = await response.Content.ReadAsStringAsync();
                     // Phân tích nội dung JSON
                     var json = JsonSerializer.Deserialize<JsonElement>(responseBody);
-
                     // Lấy "token_type" và "access_token"
                     User.Instance.TokenType = json.GetProperty("token_type").GetString();
                     User.Instance.AccessToken = json.GetProperty("access_token").GetString();
@@ -58,6 +57,7 @@ namespace Excercise6
                     var errorJson = JsonSerializer.Deserialize<JsonElement>(errorResponse);
                     // Lấy thông tin "detail"
                     string detail = errorJson.GetProperty("detail").GetString();
+                    MessageBox.Show(detail);
                 }
             }
             catch (Exception ex)
