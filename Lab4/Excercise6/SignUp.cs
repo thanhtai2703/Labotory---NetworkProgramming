@@ -13,13 +13,8 @@ namespace Excercise6
 
         private async void btnSubmit_Click(object sender, EventArgs e)
         {
-
-            // URL endpoint của API đăng ký
             string url = "https://nt106.uitiot.vn/api/v1/user/signup";
-
-            // Tạo HttpClient
             using var httpClient = new HttpClient();
-
             // Tạo nội dung body của POST request (JSON)
             var jsonContent = new
             {
@@ -38,10 +33,7 @@ namespace Excercise6
 
             try
             {
-                // Gửi yêu cầu POST
                 HttpResponseMessage response = await httpClient.PostAsync(url, content);
-
-                // Kiểm tra mã trạng thái phản hồi
                 if (response.IsSuccessStatusCode)
                 {
                     // Đọc nội dung phản hồi

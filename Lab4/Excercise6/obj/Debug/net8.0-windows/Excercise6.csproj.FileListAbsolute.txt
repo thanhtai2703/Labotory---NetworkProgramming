@@ -34,3 +34,4 @@ D:\LAB-NMM\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.pdb
 D:\LAB-NMM\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.genruntimeconfig.cache
 D:\LAB-NMM\Lab4\Excercise6\obj\Debug\net8.0-windows\ref\Excercise6.dll
 D:\LAB-NMM\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.Add.resources
+D:\LAB-NMM\Lab4\Excercise6\obj\Debug\net8.0-windows\Excercise6.Detail.resources

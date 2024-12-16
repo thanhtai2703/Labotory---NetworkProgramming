@@ -98,21 +98,26 @@
             // 
             // btnRandom
             // 
+            btnRandom.BackColor = SystemColors.ActiveCaption;
+            btnRandom.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRandom.Location = new Point(321, 33);
             btnRandom.Name = "btnRandom";
             btnRandom.Size = new Size(136, 65);
             btnRandom.TabIndex = 1;
             btnRandom.Text = "Choose for me";
-            btnRandom.UseVisualStyleBackColor = true;
+            btnRandom.UseVisualStyleBackColor = false;
+            btnRandom.Click += btnRandom_Click;
             // 
             // btnAdd
             // 
+            btnAdd.BackColor = SystemColors.ActiveCaption;
+            btnAdd.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAdd.Location = new Point(463, 33);
             btnAdd.Name = "btnAdd";
             btnAdd.Size = new Size(136, 65);
             btnAdd.TabIndex = 2;
             btnAdd.Text = "Add dishes";
-            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.UseVisualStyleBackColor = false;
             btnAdd.Click += btnAdd_Click;
             // 
             // label1
@@ -120,7 +125,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(11, 53);
+            label1.Location = new Point(14, 34);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(287, 45);

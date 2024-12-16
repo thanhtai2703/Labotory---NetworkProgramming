@@ -66,7 +66,6 @@ namespace Excercise6
             }
 
         }
-
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             SignUp sign = new SignUp();

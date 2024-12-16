@@ -83,6 +83,7 @@
             txtPassword.Location = new Point(78, 79);
             txtPassword.Margin = new Padding(2);
             txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
             txtPassword.Size = new Size(204, 23);
             txtPassword.TabIndex = 4;
             // 
@@ -136,6 +137,7 @@
             Controls.Add(label1);
             Margin = new Padding(2);
             Name = "LogIn";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Sign In";
             ResumeLayout(false);
             PerformLayout();

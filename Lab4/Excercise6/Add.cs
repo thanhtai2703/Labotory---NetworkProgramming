@@ -36,31 +36,25 @@ namespace Excercise6
             var content = new StringContent(jsonString, Encoding.UTF8, "application/json");
             try
             {
-                // Gửi yêu cầu POST
                 HttpResponseMessage response = await httpClient.PostAsync(url, content);
-
-                // Kiểm tra mã trạng thái phản hồi
+                string responseBody = await response.Content.ReadAsStringAsync();
                 if (response.IsSuccessStatusCode)
                 {
-                    // Đọc nội dung phản hồi
-                    string responseBody = await response.Content.ReadAsStringAsync();
                     MessageBox.Show("Thêm thành công:\n");
                     DialogResult = DialogResult.OK;
                     this.Close();
                 }
                 else
                 {
-                    // Xử lý lỗi
-                    string errorResponse = await response.Content.ReadAsStringAsync();
-                    var errorJson = JsonSerializer.Deserialize<JsonElement>(errorResponse);
+                    var errorJson = JsonSerializer.Deserialize<JsonElement>(responseBody);
 
                     if (errorJson.TryGetProperty("detail", out JsonElement detail))
                     {
-                        MessageBox.Show($"Thất bại: {detail.GetString()}");
+                        MessageBox.Show($"Thêm không thành công: {detail.GetString()}");
                     }
                     else
                     {
-                        MessageBox.Show($"thất bại: {errorResponse}");
+                        MessageBox.Show($"Thêm không thành công: {responseBody}");
                     }
                 }
             }
