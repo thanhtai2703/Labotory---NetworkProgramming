@@ -26,10 +26,6 @@ namespace Excercise6
         {
             InitializeComponent();
         }
-        private void addAuthorization()
-        {
-            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer",User.AccessToken);
-        }
         public async Task GetUserInfo()
         {
             url = "https://nt106.uitiot.vn/api/v1/user/me";
