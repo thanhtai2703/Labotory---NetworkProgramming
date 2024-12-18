@@ -47,6 +47,7 @@
             ClientSize = new Size(401, 219);
             Controls.Add(groupBox1);
             Name = "Detail";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Detail";
             ResumeLayout(false);
         }
