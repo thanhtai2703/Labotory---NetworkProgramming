@@ -143,7 +143,7 @@
             statelb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             statelb.AutoSize = true;
             statelb.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            statelb.ForeColor = Color.FromArgb(192, 0, 0);
+            statelb.ForeColor = Color.Red;
             statelb.Location = new Point(19, 575);
             statelb.Name = "statelb";
             statelb.Size = new Size(110, 17);

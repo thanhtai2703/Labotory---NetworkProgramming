@@ -47,15 +47,8 @@ namespace Excercise6
                 else
                 {
                     var errorJson = JsonSerializer.Deserialize<JsonElement>(responseBody);
-
-                    if (errorJson.TryGetProperty("detail", out JsonElement detail))
-                    {
-                        MessageBox.Show($"Thêm không thành công: {detail.GetString()}");
-                    }
-                    else
-                    {
-                        MessageBox.Show($"Thêm không thành công: {responseBody}");
-                    }
+                    string detail = errorJson.GetProperty("detail").GetString();
+                    MessageBox.Show($"Thêm không thành công: {detail}");
                 }
             }
             catch (Exception ex)

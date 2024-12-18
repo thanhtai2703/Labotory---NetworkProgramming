@@ -25,7 +25,7 @@ namespace Excercise6
             using var httpClient = new HttpClient();
             string username = txtUsername.Text;
             string password = txtPassword.Text;
-            var formData = new FormUrlEncodedContent(new[]
+            FormUrlEncodedContent formData = new FormUrlEncodedContent(new[]
 {
                 new KeyValuePair<string, string>("username", username),
                 new KeyValuePair<string, string>("password", password)
@@ -35,17 +35,15 @@ namespace Excercise6
                 HttpResponseMessage response = await httpClient.PostAsync(url, formData);
                 if (response.IsSuccessStatusCode)
                 {
-                    // Đọc nội dung phản hồi
                     string responseBody = await response.Content.ReadAsStringAsync();
-                    // Phân tích nội dung JSON
-                    var json = JsonSerializer.Deserialize<JsonElement>(responseBody);
+                    JsonElement json = JsonSerializer.Deserialize<JsonElement>(responseBody);
                     User.AccessToken = json.GetProperty("access_token").GetString();
                     DialogResult = DialogResult.OK;
                 }
                 else
                 {
                     string errorResponse = await response.Content.ReadAsStringAsync();
-                    var errorJson = JsonSerializer.Deserialize<JsonElement>(errorResponse);
+                    JsonElement errorJson = JsonSerializer.Deserialize<JsonElement>(errorResponse);
                     string detail = errorJson.GetProperty("detail").GetString();
                     MessageBox.Show(detail);
                 }

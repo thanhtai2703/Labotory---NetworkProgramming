@@ -20,6 +20,7 @@ namespace Excercise6
         private readonly HttpClient httpClient = new HttpClient();
         private string url;
         private int type = 0; //Xác định đang ở tab nào
+        int total = 0;
         private bool isConnected = false;
         public Menu()
         {
@@ -53,16 +54,17 @@ namespace Excercise6
                     current = Convert.ToInt32(currentpage.Text),
                     pageSize = Convert.ToInt32(pagesize.Text),
                 };
-                var content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
+                StringContent content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
 
                 try
                 {
-                    var response = await httpClient.PostAsync(url, content);
+                    HttpResponseMessage response = await httpClient.PostAsync(url, content);
                     if (response.IsSuccessStatusCode)
                     {
                         string responseBody = await response.Content.ReadAsStringAsync();
-                        var jsonData = JsonSerializer.Deserialize<JsonElement>(responseBody);
+                        JsonElement jsonData = JsonSerializer.Deserialize<JsonElement>(responseBody);
                         string responeData = jsonData.GetProperty("data").GetRawText();
+                        total = jsonData.GetProperty("pagination").GetProperty("total").GetInt32();
                         danhSachMonAn = JsonSerializer.Deserialize<List<MonAn>>(responeData);
                         getPanel();
                     }
@@ -157,14 +159,12 @@ namespace Excercise6
         }
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (tabControl1.SelectedIndex == 0)
-            {
+            if (tabControl1.SelectedIndex == 0) {
                 type = 0;
                 flowLayoutPanel1.Controls.Clear();
                 GetData();
             }
-            if (tabControl1.SelectedIndex == 1)
-            {
+            if (tabControl1.SelectedIndex == 1) {
                 type = 1;
                 flowLayoutPanel2.Controls.Clear();
                 GetData();
@@ -175,7 +175,7 @@ namespace Excercise6
             if (isConnected)
             {
                 Random random = new Random();
-                int index = random.Next(1, 100);
+                int index = random.Next(1, total);
                 MonAn x = new MonAn();
                 string url = $"https://nt106.uitiot.vn/api/v1/monan/{index}";
                 httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -237,9 +237,9 @@ namespace Excercise6
         }
         private void Login_LinkClicked(object sender, EventArgs e)
         {
-            LogIn login = new LogIn();
             if (isConnected == false)
             {
+                LogIn login = new LogIn();
                 if (login.ShowDialog() == DialogResult.OK)
                 {
                     isConnected = true;
@@ -259,6 +259,7 @@ namespace Excercise6
                 flowLayoutPanel2.Controls.Clear();
                 Loginlbl.Text = "Login";
                 statelb.Text = "Unauthenticated";
+                statelb.ForeColor = Color.Red;
             }
         }
 
