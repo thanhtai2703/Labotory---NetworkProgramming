@@ -35,7 +35,7 @@
             // 
             groupBox1.Location = new Point(3, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(429, 237);
+            groupBox1.Size = new Size(392, 203);
             groupBox1.TabIndex = 1;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
@@ -44,7 +44,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(444, 261);
+            ClientSize = new Size(401, 219);
             Controls.Add(groupBox1);
             Name = "Detail";
             Text = "Detail";

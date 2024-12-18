@@ -22,7 +22,6 @@ namespace Excercise6
         private async void btnLogin_Click(object sender, EventArgs e)
         {
             string url = "https://nt106.uitiot.vn/auth/token";
-            // Tạo HttpClient để gửi yêu cầu
             using var httpClient = new HttpClient();
             string username = txtUsername.Text;
             string password = txtPassword.Text;
@@ -33,29 +32,20 @@ namespace Excercise6
             });
             try
             {
-                // Gửi yêu cầu POST
                 HttpResponseMessage response = await httpClient.PostAsync(url, formData);
-                // Kiểm tra mã trạng thái phản hồi
                 if (response.IsSuccessStatusCode)
                 {
                     // Đọc nội dung phản hồi
                     string responseBody = await response.Content.ReadAsStringAsync();
                     // Phân tích nội dung JSON
                     var json = JsonSerializer.Deserialize<JsonElement>(responseBody);
-                    // Lấy "token_type" và "access_token"
-                    User.Instance.TokenType = json.GetProperty("token_type").GetString();
-                    User.Instance.AccessToken = json.GetProperty("access_token").GetString();
-                    Menu menu = new Menu();
-                    this.Hide();
-                    menu.ShowDialog();
-                    this.Close();
+                    User.AccessToken = json.GetProperty("access_token").GetString();
+                    DialogResult = DialogResult.OK;
                 }
                 else
                 {
-                    // Xử lý lỗi
                     string errorResponse = await response.Content.ReadAsStringAsync();
                     var errorJson = JsonSerializer.Deserialize<JsonElement>(errorResponse);
-                    // Lấy thông tin "detail"
                     string detail = errorJson.GetProperty("detail").GetString();
                     MessageBox.Show(detail);
                 }
@@ -64,7 +54,6 @@ namespace Excercise6
             {
                 MessageBox.Show(ex.Message);
             }
-
         }
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

@@ -48,12 +48,12 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(70, 11);
+            label1.Location = new Point(62, 9);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(177, 37);
+            label1.Size = new Size(192, 37);
             label1.TabIndex = 0;
-            label1.Text = "ADD DISHES";
+            label1.Text = "Thêm món ăn";
             // 
             // label2
             // 
@@ -165,7 +165,7 @@
             txtDescription.MaxLength = 150;
             txtDescription.Multiline = true;
             txtDescription.Name = "txtDescription";
-            txtDescription.Size = new Size(227, 23);
+            txtDescription.Size = new Size(227, 75);
             txtDescription.TabIndex = 13;
             // 
             // Add
@@ -189,7 +189,7 @@
             Controls.Add(label1);
             Margin = new Padding(2);
             Name = "Add";
-            Text = "Add Dishes";
+            Text = "Add ";
             ResumeLayout(false);
             PerformLayout();
         }

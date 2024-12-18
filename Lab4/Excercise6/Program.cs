@@ -13,7 +13,7 @@ namespace Excercise6
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new LogIn());
+            Application.Run(new Menu());
         }
     }
     public class MonAn
@@ -33,21 +33,9 @@ namespace Excercise6
         [JsonPropertyName("nguoi_dong_gop")]
         public string NguoiDongGop { get; set; }
     }
-    public class User
+    public static class User
     {
-        private static User _instance;
-        public string TokenType;
-        public string AccessToken;
-        private User() { }
-        public static User Instance
-        {
-            get
-            {
-                if (_instance == null)
-                    _instance = new User();
-                return _instance;
-            }
-        }
+        public static string AccessToken;
     }
 
 }

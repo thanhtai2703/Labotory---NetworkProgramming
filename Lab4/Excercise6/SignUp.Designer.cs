@@ -335,6 +335,7 @@
             Controls.Add(label1);
             Margin = new Padding(2);
             Name = "SignUp";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Sign Up";
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();

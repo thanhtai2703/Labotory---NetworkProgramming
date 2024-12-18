@@ -5,66 +5,89 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Text;
 using System.Linq;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
 
 namespace Excercise6
 {
     public partial class Menu : Form
     {
-        private List<MonAn> danhSachMonAn = new List<MonAn> ();
+        private List<MonAn> danhSachMonAn = new List<MonAn>();
+        private readonly HttpClient httpClient = new HttpClient();
+        private string url;
         private int type = 0; //Xác định đang ở tab nào
+        private bool isConnected = false;
         public Menu()
         {
             InitializeComponent();
-            GetUserInfo();
+        }
+        private void addAuthorization()
+        {
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer",User.AccessToken);
         }
         public async Task GetUserInfo()
         {
-            string url;
-            if (type == 0) url = "https://nt106.uitiot.vn/api/v1/monan/all";
-            else url = "https://nt106.uitiot.vn/api/v1/monan/my-dishes";
-
-            using var httpClient = new HttpClient();
-            var payload = new
+            url = "https://nt106.uitiot.vn/api/v1/user/me";
+            httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+           HttpResponseMessage response = await httpClient.GetAsync(url);
+           if(response.IsSuccessStatusCode)
+           {
+              string responseBody = await response.Content.ReadAsStringAsync();
+                JsonElement info = JsonSerializer.Deserialize<JsonElement>(responseBody);
+                statelb.Text = $"Welcome,{info.GetProperty("username").GetString()}";
+                statelb.ForeColor = Color.Green;
+            }
+        }
+        public async Task GetData()
+        {
+            if (isConnected)
             {
-                current = 1,
-                pagesize = 5
-            };
-            httpClient.DefaultRequestHeaders.Add("Authorization", $"bearer {User.Instance.AccessToken}");
-            var content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
-
-            try
-            {
-                var response = await httpClient.PostAsync(url, content);
-                string result = await response.Content.ReadAsStringAsync();
-                if (response.IsSuccessStatusCode)
+                if (type == 0) url = "https://nt106.uitiot.vn/api/v1/monan/all";
+                else url = "https://nt106.uitiot.vn/api/v1/monan/my-dishes";
+                var payload = new
                 {
-                    string responseBody = await response.Content.ReadAsStringAsync();
-                    var jsonData = JsonSerializer.Deserialize<JsonElement>(responseBody);
-                    string responeData  = jsonData.GetProperty("data").GetRawText();
-                    danhSachMonAn = JsonSerializer.Deserialize<List<MonAn>>(responeData);
-                    getPanel();
+                    current = Convert.ToInt32(currentpage.Text),
+                    pageSize = Convert.ToInt32(pagesize.Text),
+                };
+                var content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
+
+                try
+                {
+                    var response = await httpClient.PostAsync(url, content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        var jsonData = JsonSerializer.Deserialize<JsonElement>(responseBody);
+                        string responeData = jsonData.GetProperty("data").GetRawText();
+                        danhSachMonAn = JsonSerializer.Deserialize<List<MonAn>>(responeData);
+                        getPanel();
+                    }
+                    else
+                    {
+                        string errorResponse = await response.Content.ReadAsStringAsync();
+                        MessageBox.Show(errorResponse);
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    string errorResponse = await response.Content.ReadAsStringAsync();
-                    MessageBox.Show(errorResponse);
+                    MessageBox.Show(ex.Message);
                 }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show("vui lòng đăng nhập để sử dụng");
             }
         }
         private void getPanel() //tạo panel lưu danh sách món ăn
         {
             for (int i = 0; i < danhSachMonAn.Count(); i++)
             {
-                var monAn = danhSachMonAn[i];
-                var foodPanel = CreateFoodItem(monAn.HinhAnh,monAn.TenMonAn,monAn.Gia,monAn.DiaChi,monAn.NguoiDongGop, i);
+                MonAn monAn = danhSachMonAn[i];
+                Panel foodPanel = CreateFoodItem(monAn.HinhAnh, monAn.TenMonAn, monAn.Gia, monAn.DiaChi, monAn.NguoiDongGop, i);
                 if (type == 0) flowLayoutPanel1.Controls.Add(foodPanel);
                 else flowLayoutPanel2.Controls.Add(foodPanel);
             }
@@ -73,15 +96,14 @@ namespace Excercise6
         {
             Panel foodPanel = new Panel
             {
-                Size = new Size(550, 150),
+                Size = new Size(525, 100),
                 BorderStyle = BorderStyle.FixedSingle,
                 Margin = new Padding(5)
 
             };
-            //PictureBox hiển thị ảnh món ăn
             PictureBox pictureBox = new PictureBox
             {
-                Size = new Size(100, 150),
+                Size = new Size(100, 100),
                 Location = new Point(10, 10),
                 ImageLocation = imagePath,
                 SizeMode = PictureBoxSizeMode.Zoom
@@ -123,11 +145,15 @@ namespace Excercise6
             foodPanel.Click += panel_Click; //Gán sự kiện click cho từng panel
             return foodPanel;
         }
-
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            Add add = new Add();
-            add.ShowDialog();
+            if (isConnected){
+                Add add = new Add();
+                add.ShowDialog();
+            }
+            else{
+                MessageBox.Show("vui lòng đăng nhập để sử dụng");
+            }
         }
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -135,56 +161,119 @@ namespace Excercise6
             {
                 type = 0;
                 flowLayoutPanel1.Controls.Clear();
-                GetUserInfo();
+                GetData();
             }
             if (tabControl1.SelectedIndex == 1)
             {
                 type = 1;
                 flowLayoutPanel2.Controls.Clear();
-                GetUserInfo();
+                GetData();
             }
         }
-
-        private void btnRandom_Click(object sender, EventArgs e)
+        private async void btnRandom_Click(object sender, EventArgs e)
         {
-            Random random = new Random();
-            int index = random.Next(0, danhSachMonAn.Count);
-            MonAn x = danhSachMonAn[index];
-            //int id,string name, string description, double gia, string diachi,string picture,string donggop
-            Panel food = CreateFoodItem(x.HinhAnh, x.TenMonAn, x.Gia, x.DiaChi, x.NguoiDongGop, index);
-            food.Click -= panel_Click; //Bỏ sự kiện click
-            food.AutoScroll = true;
-            Label description = new Label //Thêm label mô tả
+            if (isConnected)
             {
-                Text = $"Mô tả: {x.MoTa}",
-                Font = new Font("Arial", 10, FontStyle.Italic),
-                Location = new Point(120, 95),
-                MaximumSize = new Size(300, 0),
-                AutoSize = true
-            };
-            food.Controls.Add(description);
-            Detail detail = new Detail(food,"ĂN MÓN NÀY ĐI!!");
-            detail.Show();
+                Random random = new Random();
+                int index = random.Next(1, 100);
+                MonAn x = new MonAn();
+                string url = $"https://nt106.uitiot.vn/api/v1/monan/{index}";
+                httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                //int id,string name, string description, double gia, string diachi,string picture,string donggop
+                try
+                {
+                    HttpResponseMessage response = await httpClient.GetAsync(url);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        x = JsonSerializer.Deserialize<MonAn>(responseBody);
+                    }
+                    Panel food = CreateFoodItem(x.HinhAnh, x.TenMonAn, x.Gia, x.DiaChi, x.NguoiDongGop, index);
+                    food.Click -= panel_Click; //Bỏ sự kiện click
+                    food.AutoScroll = true;
+                    Label description = new Label //Thêm label mô tả
+                    {
+                        Text = $"Mô tả: {x.MoTa}",
+                        Font = new Font("Arial", 10, FontStyle.Italic),
+                        Location = new Point(120, 95),
+                        AutoSize = true,
+                        MaximumSize = new Size(300, 0)
+                    };
+                    food.Controls.Add(description);
+                    Detail detail = new Detail(food, "ĂN MÓN NÀY ĐI!!");
+                    detail.Show();
+                }
+                catch(Exception ex){
+                    MessageBox.Show(ex.Message);
+                }
+            }
+            else
+            {
+                MessageBox.Show("vui lòng đăng nhập để sử dụng");
+            }
         }
         private void panel_Click(object sender, EventArgs e)
         {
-            int index = (int)((Panel)sender).Tag; //lấy chỉ số panel
-            var x = danhSachMonAn[index];
-            //string name, string description, doube gia, string diachi,string picture,string donggop,int id
-            Panel food = CreateFoodItem(x.HinhAnh, x.TenMonAn, x.Gia, x.DiaChi, x.NguoiDongGop, index);
-            food.Click -= panel_Click; //Loại bỏ sự kiện click
-            food.AutoScroll = true;
-            Label description = new Label //Thêm label mô tả
+            if (isConnected)
             {
-                Text = $"Mô tả: {x.MoTa}",
-                Font = new Font("Arial", 10, FontStyle.Italic),
-                Location = new Point(120, 95),
-                MaximumSize = new Size (200,0),
-                AutoSize = true
-            };
-            food.Controls.Add(description);
-            Detail detail = new Detail(food,"MÓN ĂN");
-            detail.Show();
+                int index = (int)((Panel)sender).Tag; //lấy chỉ số panel
+                var x = danhSachMonAn[index];
+                //string name, string description, doube gia, string diachi,string picture,string donggop,int id
+                Panel food = CreateFoodItem(x.HinhAnh, x.TenMonAn, x.Gia, x.DiaChi, x.NguoiDongGop, index);
+                food.Click -= panel_Click; //Loại bỏ sự kiện click
+                food.AutoScroll = true;
+                Label description = new Label //Thêm label mô tả
+                {
+                    Text = $"Mô tả: {x.MoTa}",
+                    Font = new Font("Arial", 10, FontStyle.Italic),
+                    Location = new Point(120, 95),
+                    MaximumSize = new Size(200, 0),
+                    AutoSize = true
+                };
+                food.Controls.Add(description);
+                Detail detail = new Detail(food, "MÓN ĂN");
+                detail.Show();
+            }
+        }
+        private void Login_LinkClicked(object sender, EventArgs e)
+        {
+            LogIn login = new LogIn();
+            if (isConnected == false)
+            {
+                if (login.ShowDialog() == DialogResult.OK)
+                {
+                    isConnected = true;
+                    httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", User.AccessToken);
+                    GetData();
+                    progressBar1.Value = 100;
+                    GetUserInfo();
+                    Loginlbl.Text = "Logout";
+                }
+            }
+            else if(isConnected == true)
+            {
+                isConnected = false;
+                progressBar1.Value = 0;
+                User.AccessToken = "";
+                flowLayoutPanel1.Controls.Clear();
+                flowLayoutPanel2.Controls.Clear();
+                Loginlbl.Text = "Login";
+                statelb.Text = "Unauthenticated";
+            }
+        }
+
+        private void currentpage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (type == 0) flowLayoutPanel1.Controls.Clear();
+            else flowLayoutPanel2.Controls.Clear();
+            GetData();
+        }
+
+        private void pagesize_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (type == 0) flowLayoutPanel1.Controls.Clear();
+            else flowLayoutPanel2.Controls.Clear();
+            GetData();
         }
     }
 }

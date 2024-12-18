@@ -23,7 +23,7 @@ namespace Excercise6
         {
             string url = "https://nt106.uitiot.vn/api/v1/monan/add";
             using var httpClient = new HttpClient();
-            httpClient.DefaultRequestHeaders.Add("Authorization", $"bearer {User.Instance.AccessToken}");
+            httpClient.DefaultRequestHeaders.Add("Authorization", $"bearer {User.AccessToken}");
             var jsonContent = new
             {
                 ten_mon_an = txtName.Text,

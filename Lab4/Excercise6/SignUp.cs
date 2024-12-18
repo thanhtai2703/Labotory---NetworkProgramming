@@ -59,7 +59,6 @@ namespace Excercise6
             }
             catch (Exception ex)
             {
-                // Xử lý ngoại lệ
                 MessageBox.Show($"Lỗi: {ex.Message}");
             }
         }
