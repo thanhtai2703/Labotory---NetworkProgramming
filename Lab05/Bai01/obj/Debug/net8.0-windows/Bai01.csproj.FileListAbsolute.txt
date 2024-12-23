@@ -1,5 +1,4 @@
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.AssemblyReference.cache
-D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai1.Form1.resources
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai01.csproj.GenerateResource.cache
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai01.GeneratedMSBuildEditorConfig.editorconfig
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai01.AssemblyInfoInputs.cache
@@ -23,3 +22,4 @@ D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\refint\Bai01.dll
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai01.pdb
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai01.genruntimeconfig.cache
 D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\ref\Bai01.dll
+D:\LAB-NMM\Lab05\Bai01\obj\Debug\net8.0-windows\Bai1.subjectColor.resources

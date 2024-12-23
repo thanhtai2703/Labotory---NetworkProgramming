@@ -4,7 +4,7 @@ using System.Xml.Linq;
 
 namespace Bai1
 {
-    partial class Form1
+    partial class subjectColor
     {
         /// <summary>
         ///  Required designer variable.
@@ -41,6 +41,11 @@ namespace Bai1
             txtTo = new TextBox();
             txtSubject = new TextBox();
             txtBody = new RichTextBox();
+            colorDialog1 = new ColorDialog();
+            chooseColorBtn = new Button();
+            attachBtn = new Button();
+            openFileDialog1 = new OpenFileDialog();
+            txtImagePath = new TextBox();
             SuspendLayout();
             // 
             // label1
@@ -64,7 +69,7 @@ namespace Bai1
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(23, 150);
+            label3.Location = new Point(12, 122);
             label3.Name = "label3";
             label3.Size = new Size(58, 20);
             label3.TabIndex = 2;
@@ -73,7 +78,7 @@ namespace Bai1
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(23, 198);
+            label4.Location = new Point(12, 157);
             label4.Name = "label4";
             label4.Size = new Size(43, 20);
             label4.TabIndex = 3;
@@ -81,9 +86,9 @@ namespace Bai1
             // 
             // SendBtn
             // 
-            SendBtn.Location = new Point(12, 33);
+            SendBtn.Location = new Point(12, 27);
             SendBtn.Name = "SendBtn";
-            SendBtn.Size = new Size(69, 60);
+            SendBtn.Size = new Size(84, 60);
             SendBtn.TabIndex = 4;
             SendBtn.Text = "SEND";
             SendBtn.UseVisualStyleBackColor = true;
@@ -105,24 +110,58 @@ namespace Bai1
             // 
             // txtSubject
             // 
-            txtSubject.Location = new Point(114, 147);
+            txtSubject.Location = new Point(88, 119);
             txtSubject.Name = "txtSubject";
-            txtSubject.Size = new Size(371, 27);
+            txtSubject.Size = new Size(325, 27);
             txtSubject.TabIndex = 7;
             // 
             // txtBody
             // 
-            txtBody.Location = new Point(114, 198);
+            txtBody.Location = new Point(88, 157);
             txtBody.Name = "txtBody";
-            txtBody.Size = new Size(364, 218);
+            txtBody.Size = new Size(325, 234);
             txtBody.TabIndex = 8;
             txtBody.Text = "";
             // 
-            // Form1
+            // chooseColorBtn
+            // 
+            chooseColorBtn.Location = new Point(419, 117);
+            chooseColorBtn.Name = "chooseColorBtn";
+            chooseColorBtn.Size = new Size(81, 29);
+            chooseColorBtn.TabIndex = 9;
+            chooseColorBtn.Text = "Color";
+            chooseColorBtn.UseVisualStyleBackColor = true;
+            chooseColorBtn.Click += chooseColorBtn_Click;
+            // 
+            // attachBtn
+            // 
+            attachBtn.Location = new Point(428, 400);
+            attachBtn.Name = "attachBtn";
+            attachBtn.Size = new Size(81, 29);
+            attachBtn.TabIndex = 10;
+            attachBtn.Text = "Attach";
+            attachBtn.UseVisualStyleBackColor = true;
+            attachBtn.Click += attachBtn_Click;
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // txtImagePath
+            // 
+            txtImagePath.Location = new Point(90, 407);
+            txtImagePath.Name = "txtImagePath";
+            txtImagePath.Size = new Size(323, 27);
+            txtImagePath.TabIndex = 11;
+            // 
+            // subjectColor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(512, 441);
+            Controls.Add(txtImagePath);
+            Controls.Add(attachBtn);
+            Controls.Add(chooseColorBtn);
             Controls.Add(txtBody);
             Controls.Add(txtSubject);
             Controls.Add(txtTo);
@@ -132,7 +171,7 @@ namespace Bai1
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
+            Name = "subjectColor";
             Text = "Form1";
             ResumeLayout(false);
             PerformLayout();
@@ -149,5 +188,10 @@ namespace Bai1
         private TextBox txtTo;
         private TextBox txtSubject;
         private RichTextBox txtBody;
+        private ColorDialog colorDialog1;
+        private Button chooseColorBtn;
+        private Button attachBtn;
+        private OpenFileDialog openFileDialog1;
+        private TextBox txtImagePath;
     }
 }
