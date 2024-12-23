@@ -33,7 +33,7 @@ namespace Excercise6
         [JsonPropertyName("nguoi_dong_gop")]
         public string NguoiDongGop { get; set; }
     }
-    public static class User
+    public class User
     {
         public static string AccessToken;
     }

@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,28 +15,36 @@
       "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\add.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|D:\\LAB-NMM\\Lab4\\excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\detail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\menu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\excercise6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\excercise6.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|d:\\lab-nmm\\lab4\\excercise6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2C168D6-E060-4C9B-9BA3-D7E6D3B306C9}|Excercise6\\Excercise6.csproj|solutionrelative:excercise6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -76,38 +76,14 @@
               "RelativeDocumentMoniker": "Excercise6\\Menu.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\Menu.cs",
               "RelativeToolTip": "Excercise6\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAPAAAAAnAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAqwD8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T15:11:49.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Add.cs",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Add.cs",
-              "RelativeDocumentMoniker": "Excercise6\\Add.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\Add.cs",
-              "RelativeToolTip": "Excercise6\\Add.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:08:32.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Detail.cs [Design]",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Detail.cs",
-              "RelativeDocumentMoniker": "Excercise6\\Detail.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\Detail.cs [Design]",
-              "RelativeToolTip": "Excercise6\\Detail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T14:22:51.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Menu.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Menu.cs",
               "RelativeDocumentMoniker": "Excercise6\\Menu.cs",
@@ -119,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Menu.Designer.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Menu.Designer.cs",
               "RelativeDocumentMoniker": "Excercise6\\Menu.Designer.cs",
@@ -132,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SignUp.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\SignUp.cs",
               "RelativeDocumentMoniker": "Excercise6\\SignUp.cs",
@@ -144,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Add.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Add.cs",
               "RelativeDocumentMoniker": "Excercise6\\Add.cs",
@@ -156,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Detail.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Detail.cs",
               "RelativeDocumentMoniker": "Excercise6\\Detail.cs",
@@ -168,55 +144,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "SignUp.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\SignUp.cs",
               "RelativeDocumentMoniker": "Excercise6\\SignUp.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\SignUp.cs",
               "RelativeToolTip": "Excercise6\\SignUp.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAAEYAAAAAAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowEYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:58:18.489Z"
+              "WhenOpened": "2024-12-11T12:58:18.489Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "LogIn.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\LogIn.cs",
               "RelativeDocumentMoniker": "Excercise6\\LogIn.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\LogIn.cs",
               "RelativeToolTip": "Excercise6\\LogIn.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAfAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC4AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T12:48:11.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Program.cs",
               "RelativeDocumentMoniker": "Excercise6\\Program.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\Program.cs",
               "RelativeToolTip": "Excercise6\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCYAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T12:27:48.424Z"
+              "WhenOpened": "2024-12-11T12:27:48.424Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "LogIn.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\LogIn.cs",
               "RelativeDocumentMoniker": "Excercise6\\LogIn.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\LogIn.cs [Design]",
               "RelativeToolTip": "Excercise6\\LogIn.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T09:02:43.714Z"
+              "WhenOpened": "2024-12-11T09:02:43.714Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "Add.cs",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Add.cs",
+              "RelativeDocumentMoniker": "Excercise6\\Add.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\Add.cs",
+              "RelativeToolTip": "Excercise6\\Add.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:08:32.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Detail.cs [Design]",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Detail.cs",
+              "RelativeDocumentMoniker": "Excercise6\\Detail.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab4\\Excercise6\\Detail.cs [Design]",
+              "RelativeToolTip": "Excercise6\\Detail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:22:51.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Excercise6.csproj",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab4\\Excercise6\\Excercise6.csproj",
               "RelativeDocumentMoniker": "Excercise6\\Excercise6.csproj",
