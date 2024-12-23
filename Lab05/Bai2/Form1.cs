@@ -64,7 +64,7 @@ namespace Bai2
                                 {
                             message.Subject ?? "(No Subject)",
                             message.From.ToString(),
-                            message.Date.ToString("yyyy-MM-dd HH:mm:ss")
+                            message.Date.ToString("dd-MM-yyyy HH:mm:ss")
                         });
                                 listView1.Items.Add(item);
                             }));
