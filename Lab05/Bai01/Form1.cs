@@ -76,7 +76,7 @@ namespace Bai1
                             <h1>{subject}</h1>
                             <p>{body}</p>
                             <img src=""cid:{image.ContentId}"" alt=""Attached Image"" style=""max-width: 100%; height: auto;"" />
-                            <p><a href='https://example.com' class='button'>Get Started</a></p>
+                            <p><a href='https://github.com/thanhtai2703/Labotory---NetworkProgramming' class='button'>Contact us</a></p>
                         </body>
                     </html>";
                 }
@@ -123,7 +123,7 @@ namespace Bai1
             {
                 string selectedColor = ColorTranslator.ToHtml(colorDialog1.Color);
                 SUBJECTCOLOR = selectedColor;
-                BODYCOLOR = selectedColor;
+                txtSubject.ForeColor = colorDialog1.Color;
             }
         }
 
@@ -141,6 +141,16 @@ namespace Bai1
                     imagePath = ofd.FileName; // Lưu đường dẫn hình ảnh vào biến
                     txtImagePath.Text = imagePath; // Hiển thị đường dẫn trong textbox
                 }
+            }
+        }
+
+        private void BodyColorChoose_Click(object sender, EventArgs e)
+        {
+            if (colorDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string selectedColor = ColorTranslator.ToHtml(colorDialog1.Color);
+                BODYCOLOR = selectedColor;
+                txtBody.ForeColor = colorDialog1.Color;
             }
         }
     }

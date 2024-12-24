@@ -42,10 +42,11 @@ namespace Bai1
             txtSubject = new TextBox();
             txtBody = new RichTextBox();
             colorDialog1 = new ColorDialog();
-            chooseColorBtn = new Button();
+            SubjectColorChoose = new Button();
             attachBtn = new Button();
             openFileDialog1 = new OpenFileDialog();
             txtImagePath = new TextBox();
+            BodyColorChoose = new Button();
             SuspendLayout();
             // 
             // label1
@@ -98,14 +99,14 @@ namespace Bai1
             // 
             txtFrom.Location = new Point(172, 30);
             txtFrom.Name = "txtFrom";
-            txtFrom.Size = new Size(313, 27);
+            txtFrom.Size = new Size(377, 27);
             txtFrom.TabIndex = 5;
             // 
             // txtTo
             // 
             txtTo.Location = new Point(172, 67);
             txtTo.Name = "txtTo";
-            txtTo.Size = new Size(313, 27);
+            txtTo.Size = new Size(377, 27);
             txtTo.TabIndex = 6;
             // 
             // txtSubject
@@ -123,19 +124,19 @@ namespace Bai1
             txtBody.TabIndex = 8;
             txtBody.Text = "";
             // 
-            // chooseColorBtn
+            // SubjectColorChoose
             // 
-            chooseColorBtn.Location = new Point(419, 117);
-            chooseColorBtn.Name = "chooseColorBtn";
-            chooseColorBtn.Size = new Size(81, 29);
-            chooseColorBtn.TabIndex = 9;
-            chooseColorBtn.Text = "Color";
-            chooseColorBtn.UseVisualStyleBackColor = true;
-            chooseColorBtn.Click += chooseColorBtn_Click;
+            SubjectColorChoose.Location = new Point(419, 119);
+            SubjectColorChoose.Name = "SubjectColorChoose";
+            SubjectColorChoose.Size = new Size(106, 29);
+            SubjectColorChoose.TabIndex = 9;
+            SubjectColorChoose.Text = "SubjectColor";
+            SubjectColorChoose.UseVisualStyleBackColor = true;
+            SubjectColorChoose.Click += chooseColorBtn_Click;
             // 
             // attachBtn
             // 
-            attachBtn.Location = new Point(428, 400);
+            attachBtn.Location = new Point(419, 407);
             attachBtn.Name = "attachBtn";
             attachBtn.Size = new Size(81, 29);
             attachBtn.TabIndex = 10;
@@ -154,14 +155,25 @@ namespace Bai1
             txtImagePath.Size = new Size(323, 27);
             txtImagePath.TabIndex = 11;
             // 
+            // BodyColorChoose
+            // 
+            BodyColorChoose.Location = new Point(419, 157);
+            BodyColorChoose.Name = "BodyColorChoose";
+            BodyColorChoose.Size = new Size(106, 29);
+            BodyColorChoose.TabIndex = 12;
+            BodyColorChoose.Text = "BodyColor";
+            BodyColorChoose.UseVisualStyleBackColor = true;
+            BodyColorChoose.Click += BodyColorChoose_Click;
+            // 
             // subjectColor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(512, 441);
+            ClientSize = new Size(561, 441);
+            Controls.Add(BodyColorChoose);
             Controls.Add(txtImagePath);
             Controls.Add(attachBtn);
-            Controls.Add(chooseColorBtn);
+            Controls.Add(SubjectColorChoose);
             Controls.Add(txtBody);
             Controls.Add(txtSubject);
             Controls.Add(txtTo);
@@ -189,9 +201,10 @@ namespace Bai1
         private TextBox txtSubject;
         private RichTextBox txtBody;
         private ColorDialog colorDialog1;
-        private Button chooseColorBtn;
+        private Button SubjectColorChoose;
         private Button attachBtn;
         private OpenFileDialog openFileDialog1;
         private TextBox txtImagePath;
+        private Button BodyColorChoose;
     }
 }

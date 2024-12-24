@@ -40,6 +40,9 @@
             this.From = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Time = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.lblPage = new System.Windows.Forms.Label();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.btnNext = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -115,7 +118,7 @@
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(16, 125);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(956, 313);
+            this.listView1.Size = new System.Drawing.Size(956, 280);
             this.listView1.TabIndex = 9;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
@@ -146,11 +149,43 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // lblPage
+            // 
+            this.lblPage.AutoSize = true;
+            this.lblPage.Location = new System.Drawing.Point(771, 418);
+            this.lblPage.Name = "lblPage";
+            this.lblPage.Size = new System.Drawing.Size(76, 20);
+            this.lblPage.TabIndex = 11;
+            this.lblPage.Text = "Page: 0/0";
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.Location = new System.Drawing.Point(669, 411);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(96, 34);
+            this.btnPrevious.TabIndex = 12;
+            this.btnPrevious.Text = "Previous";
+            this.btnPrevious.UseVisualStyleBackColor = true;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
+            // 
+            // btnNext
+            // 
+            this.btnNext.Location = new System.Drawing.Point(876, 411);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(96, 34);
+            this.btnNext.TabIndex = 13;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = true;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(984, 450);
+            this.Controls.Add(this.btnNext);
+            this.Controls.Add(this.btnPrevious);
+            this.Controls.Add(this.lblPage);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.lblRecent);
@@ -181,6 +216,9 @@
         private System.Windows.Forms.ColumnHeader From;
         private System.Windows.Forms.ColumnHeader Time;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Label lblPage;
+        private System.Windows.Forms.Button btnPrevious;
+        private System.Windows.Forms.Button btnNext;
     }
 }
 
