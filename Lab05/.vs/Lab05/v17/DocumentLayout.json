@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\LAB-NMM\\Lab05\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|d:\\lab-nmm\\lab05\\bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|solutionrelative:bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -40,6 +44,18 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
+              "RelativeDocumentMoniker": "Bai01\\Form1.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs [Design]",
+              "RelativeToolTip": "Bai01\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T03:02:13.008Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
               "RelativeDocumentMoniker": "Bai2\\Form1.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs [Design]",
@@ -50,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Program.cs",
               "RelativeDocumentMoniker": "Bai01\\Program.cs",
@@ -62,20 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
               "RelativeDocumentMoniker": "Bai2\\Form1.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
               "RelativeToolTip": "Bai2\\Form1.cs",
-              "ViewState": "AQIAAJIAAAAAAAAAAAAAAMYAAAAAAAAA",
+              "ViewState": "AQIAAI8AAAAAAAAAAIBJwMYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T02:01:34.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Bai01.csproj",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Bai01.csproj",
               "RelativeDocumentMoniker": "Bai01\\Bai01.csproj",
@@ -87,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
               "RelativeDocumentMoniker": "Bai01\\Form1.cs",

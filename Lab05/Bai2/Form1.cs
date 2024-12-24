@@ -52,11 +52,50 @@ namespace Bai2
             {
                 var message = inbox.GetMessage(i);
 
+<<<<<<< HEAD
                 var item = new ListViewItem(new[]
                 {
                     message.Subject ?? "(No Subject)",
                     message.From.ToString(),
                     message.Date.ToString("yyyy-MM-dd HH:mm:ss")
+=======
+                        // Truy cập hộp thư "INBOX"
+                        var inbox = client.Inbox;
+                        inbox.Open(MailKit.FolderAccess.ReadOnly);
+
+                        // Cập nhật thông tin Total và Recent
+                        Invoke(new Action(() =>
+                        {
+                            lblTotal.Text = "Total: " + inbox.Count.ToString();
+                            int recentCount = Math.Min(inbox.Count, 10);
+                            lblRecent.Text = "Recent: " + recentCount.ToString();
+
+                            // Xóa dữ liệu cũ trong ListView
+                            listView1.Items.Clear();
+                        }));
+
+                        // Lấy và hiển thị email
+                        for (int i = inbox.Count - 1; i >= inbox.Count - Math.Min(inbox.Count, 10); i--)
+                        {
+                            var message = inbox.GetMessage(i);
+
+                            // Thêm email vào ListView trên UI thread
+                            Invoke(new Action(() =>
+                            {
+                                var item = new ListViewItem(new[]
+                                {
+                            message.Subject ?? "(No Subject)",
+                            message.From.ToString(),
+                            message.Date.ToString("dd-MM-yyyy HH:mm:ss")
+                        });
+                                listView1.Items.Add(item);
+                            }));
+                        }
+
+                        // Ngắt kết nối
+                        client.Disconnect(true);
+                    }
+>>>>>>> 3ebacaa3805340f174405e552bd420caa77cadce
                 });
 
                 // Thêm item vào ListView
