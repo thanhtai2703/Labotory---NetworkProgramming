@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\LAB-NMM\\Lab05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|d:\\lab-nmm\\lab05\\bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|solutionrelative:bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|D:\\LAB-NMM\\Lab05\\bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|solutionrelative:bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|D:\\LAB-NMM\\Lab05\\bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|solutionrelative:bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
               "RelativeDocumentMoniker": "Bai01\\Form1.cs",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
               "RelativeDocumentMoniker": "Bai2\\Form1.cs",
@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "Bai2\\Form1.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
               "RelativeToolTip": "Bai2\\Form1.cs",
-              "ViewState": "AQIAAI8AAAAAAAAAAIBJwMYAAAAAAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwHIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T02:01:34.539Z",
               "EditorCaption": ""
@@ -103,13 +103,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
               "RelativeDocumentMoniker": "Bai01\\Form1.cs",
               "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
               "RelativeToolTip": "Bai01\\Form1.cs",
-              "ViewState": "AQIAAHkAAAAAAAAAAAAqwJgAAAAXAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwCEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T01:38:25.228Z",
               "EditorCaption": ""
