@@ -18,7 +18,7 @@ namespace Bai2
     public partial class Form1 : Form
     {
         private int currentPage = 0; // Trang hiện tại (bắt đầu từ 0)
-        private int emailsPerPage = 10; // Số email mỗi trang
+        private int emailsPerPage = 15; // Số email mỗi trang
         private int totalEmails = 0; // Tổng số email
 
         public Form1()
@@ -88,7 +88,7 @@ namespace Bai2
                 lblTotal.Text = $"Total: {totalEmails}";
             }
 
-            int recentCount = Math.Min(inbox.Count, 10);
+            int recentCount = Math.Min(inbox.Count, 15);
             if (lblRecent.InvokeRequired)
             {
                 lblRecent.Invoke(new Action(() =>
@@ -138,7 +138,7 @@ namespace Bai2
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Lỗi: {ex.Message}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Error: {ex.Message}", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
