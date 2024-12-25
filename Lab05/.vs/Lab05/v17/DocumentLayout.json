@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "D:\\LAB-NMM\\Lab05\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|d:\\lab-nmm\\lab05\\bai4\\inboxform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|solutionrelative:bai4\\inboxform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|d:\\lab-nmm\\lab05\\bai4\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|solutionrelative:bai4\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|D:\\LAB-NMM\\Lab05\\bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|solutionrelative:bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|d:\\lab-nmm\\lab05\\bai4\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|solutionrelative:bai4\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|D:\\LAB-NMM\\Lab05\\bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{66756794-3D05-4138-A3FD-3814BF1D3ABD}|Bai2\\Bai2.csproj|solutionrelative:bai2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|d:\\lab-nmm\\lab05\\bai4\\reademailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{83676042-8453-4AE1-8C12-26BAF64FB035}|Bai4\\Bai4.csproj|solutionrelative:bai4\\reademailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|d:\\lab-nmm\\lab05\\bai01\\bai01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\bai01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|D:\\LAB-NMM\\Lab05\\bai01\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E85CB70B-B7D8-4173-892E-29FF1331B93E}|Bai01\\Bai01.csproj|solutionrelative:bai01\\sendmail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,51 +46,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
-              "RelativeDocumentMoniker": "Bai01\\Form1.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs [Design]",
-              "RelativeToolTip": "Bai01\\Form1.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "InboxForm.cs [Design]",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai4\\InboxForm.cs",
+              "RelativeDocumentMoniker": "Bai4\\InboxForm.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai4\\InboxForm.cs [Design]",
+              "RelativeToolTip": "Bai4\\InboxForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T03:02:13.008Z",
+              "WhenOpened": "2024-12-25T14:51:25.025Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai4\\User.cs",
+              "RelativeDocumentMoniker": "Bai4\\User.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai4\\User.cs",
+              "RelativeToolTip": "Bai4\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:51:23.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai4\\Login.cs",
+              "RelativeDocumentMoniker": "Bai4\\Login.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai4\\Login.cs [Design]",
+              "RelativeToolTip": "Bai4\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T14:51:21.341Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
-              "RelativeDocumentMoniker": "Bai2\\Form1.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs [Design]",
-              "RelativeToolTip": "Bai2\\Form1.cs [Design]",
+              "Title": "ReadEmailForm.cs [Design]",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai4\\ReadEmailForm.cs",
+              "RelativeDocumentMoniker": "Bai4\\ReadEmailForm.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai4\\ReadEmailForm.cs [Design]",
+              "RelativeToolTip": "Bai4\\ReadEmailForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T02:59:48.469Z",
+              "WhenOpened": "2024-12-25T14:51:19.945Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Program.cs",
-              "RelativeDocumentMoniker": "Bai01\\Program.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\Program.cs",
-              "RelativeToolTip": "Bai01\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAlAAAA",
+              "Title": "SendMail.cs",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\SendMail.cs",
+              "RelativeDocumentMoniker": "Bai01\\SendMail.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\SendMail.cs",
+              "RelativeToolTip": "Bai01\\SendMail.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAmwCAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:14:20.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
-              "RelativeDocumentMoniker": "Bai2\\Form1.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai2\\Form1.cs",
-              "RelativeToolTip": "Bai2\\Form1.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAqwHIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T02:01:34.539Z",
+              "WhenOpened": "2024-12-25T14:26:02.546Z",
               "EditorCaption": ""
             },
             {
@@ -99,20 +116,20 @@
               "RelativeToolTip": "Bai01\\Bai01.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-23T01:39:54.132Z"
+              "WhenOpened": "2024-12-25T14:25:57.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
-              "RelativeDocumentMoniker": "Bai01\\Form1.cs",
-              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\Form1.cs",
-              "RelativeToolTip": "Bai01\\Form1.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAiwCEAAAAfAAAA",
+              "DocumentIndex": 6,
+              "Title": "SendMail.cs [Design]",
+              "DocumentMoniker": "D:\\LAB-NMM\\Lab05\\Bai01\\SendMail.cs",
+              "RelativeDocumentMoniker": "Bai01\\SendMail.cs",
+              "ToolTip": "D:\\LAB-NMM\\Lab05\\Bai01\\SendMail.cs [Design]",
+              "RelativeToolTip": "Bai01\\SendMail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T01:38:25.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T14:17:37.248Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

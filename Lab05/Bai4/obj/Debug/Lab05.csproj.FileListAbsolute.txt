@@ -1,0 +1,111 @@
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\LoginForm.exe
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\LoginForm.pdb
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MailKit.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MimeKit.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Buffers.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Formats.Asn1.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Memory.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.ValueTuple.dll
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MailKit.pdb
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MailKit.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MailKit.dll.config
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MimeKit.pdb
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\MimeKit.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Buffers.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Formats.Asn1.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Memory.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\bin\Debug\System.ValueTuple.xml
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\Lab05.csproj.AssemblyReference.cache
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.InboxForm.resources
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.Login.resources
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.ReadEmailForm.resources
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.SendEmailForm.resources
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\Lab05.csproj.GenerateResource.cache
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\Lab05.csproj.CoreCompileInputs.cache
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\Lab05.csproj.Up2Date
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.exe
+C:\Users\huung\Downloads\Lập Trình Mạng\Lab5\LoginForm\obj\Debug\LoginForm.pdb
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\LoginForm.exe.config
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\LoginForm.exe
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\LoginForm.pdb
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\BouncyCastle.Cryptography.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MailKit.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MimeKit.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Buffers.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Formats.Asn1.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Memory.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Numerics.Vectors.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.ValueTuple.dll
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\BouncyCastle.Cryptography.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MailKit.pdb
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MailKit.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MailKit.dll.config
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MimeKit.pdb
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\MimeKit.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Buffers.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Formats.Asn1.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Memory.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Numerics.Vectors.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\ThucHanhNMM\Lab5\Lab05\bin\Debug\System.ValueTuple.xml
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\Lab05.csproj.AssemblyReference.cache
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.InboxForm.resources
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.Login.resources
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.Properties.Resources.resources
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.ReadEmailForm.resources
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.SendEmailForm.resources
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\Lab05.csproj.GenerateResource.cache
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\Lab05.csproj.CoreCompileInputs.cache
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\Lab05.csproj.Up2Date
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.exe
+D:\ThucHanhNMM\Lab5\Lab05\obj\Debug\LoginForm.pdb
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\Lab05.csproj.AssemblyReference.cache
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.InboxForm.resources
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.Login.resources
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.ReadEmailForm.resources
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.SendEmailForm.resources
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\Lab05.csproj.GenerateResource.cache
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\Lab05.csproj.CoreCompileInputs.cache
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.exe
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\LoginForm.pdb
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\LoginForm.exe.config
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\LoginForm.exe
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\LoginForm.pdb
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MailKit.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MimeKit.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Buffers.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Formats.Asn1.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Memory.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.ValueTuple.dll
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MailKit.pdb
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MailKit.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MailKit.dll.config
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MimeKit.pdb
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\MimeKit.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Buffers.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Formats.Asn1.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Memory.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\bin\Debug\System.ValueTuple.xml
+C:\Users\huung\Documents\Zalo Received Files\Lab5\Lab5\Lab05\obj\Debug\Lab05.csproj.Up2Date
